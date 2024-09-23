@@ -1,0 +1,85 @@
+/*adding a display to the body */
+body{
+    display: flex;
+    box-sizing: border-box;
+    background-color: rgb(220, 190, 155);
+}
+
+/* styling the Container*/
+.Container{
+    background-color: hsl(0, 0%, 100%);
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+/*adding font size to the paragraph text*/
+p{
+    font-size: 16px;
+}
+
+/*styling the img*/
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+/*adding color to h2 and the dot. properties */
+h2 , li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+/*adding color to h3 and the dot. properties */
+.Second > ul >li::marker , h3{
+    color: hsl(332, 51%, 32%);
+}
+
+/*background color to the second div */
+.Second {
+    background-color: hsl(330, 100%, 98%);
+}
+
+.List-item > li::marker , .items {
+    font-weight: 600;
+}
+
+/* bottom spacing between all the li*/
+li{
+    margin-bottom: 10px;
+}
+
+/*table width*/
+table {
+    width: 100%;
+}
+
+/*table styling*/
+td{
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+}
+
+/*adding color  styling  to the table element (td)*/
+.color{
+    color: red;
+}
+
+@media (min-width:1440px) and (max-width:375px) {
+    body{
+        display: flex;
+    }
+
+    .Container{
+        background-color: hsl(0, 0%, 100%);
+        font-family: sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        border-radius: 20px;
+        padding: 15px;
+    }
+    
+}
